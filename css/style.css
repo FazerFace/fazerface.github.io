@@ -1,0 +1,149 @@
+body{
+  font-family: 'Segoe UI Light', sans-serif;
+  margin: 0;
+  padding:0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* CONTAINER
+===============*/
+
+.container{
+  max-width: 1020px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* HEADER
+==============*/
+
+.header{
+ background-color: #fff;
+}
+
+.header__item{
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo{
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.header__title{
+  font-size: 43px;
+  color: #000;
+  margin-left: 15px;
+}
+
+/* NAV
+================*/
+
+.nav{
+ padding-top: 25px;
+}
+
+.nav__link{
+ color: #000;
+ font-size: 20px;
+ text-decoration: none;
+ margin-right: 30px;
+}
+
+.nav__link:last-child{
+  margin: 0;
+}
+
+.nav__link:hover{
+  padding-bottom: 17px;
+  border-bottom: 3px solid #5094f2;
+}
+
+/* FOOTER
+=============*/
+
+.footer{
+  background: #515b6a url("../img/header.png") no-repeat center top / cover;
+}
+
+.footer__item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__phone{
+
+}
+
+.footer__iphone{
+ padding-right: 125px;
+ padding-top: 50px;
+ padding-left: 65px;
+ padding-bottom: 10px;
+
+}
+
+.footer__content{
+  padding-top: 140px;
+}
+
+.footer__title{
+ line-height: 1.7em;
+ color: #fff;
+ font-size: 43px;
+}
+
+.footer__text{
+  color: #fff;
+  font-size: 27px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+/* BTN
+==============*/
+
+.btn{
+ color: #fff;
+ font-size: 23px;
+ text-decoration: none;
+ text-align: center;
+ margin-left: 13px;
+}
+
+.btn__color{
+  border: 1px solid #5094f2;
+  background: #5094f2;
+  border-radius: 3px;
+  padding: 5px 0;
+  padding-left:40px;
+  padding-right: 15px;
+}
+
+/* SVG
+===========*/
+
+.footer__btn{
+ position: relative;
+}
+
+svg{
+  position: absolute;
+  top: 18%;
+  right: 88%;
+
+  height: 23px;
+  width: 23px;
+}
+
+.btn__color:hover{
+  background: #347de1;
+  border: 1px solid #347de1;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}

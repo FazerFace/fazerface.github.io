@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Segoe UI Light';
+src: url('.../fonts/SegoeUI-Light.eot');
+src: url('.../fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+url('.../fonts/SegoeUI-Light.woff') format('woff'),
+url('.../fonts/SegoeUI-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.box-name{
+  font-family: 'Segoe UI Regular';
+}
+
+@font-face {
+font-family: 'Segoe UI Regular';
+src: url('.../fonts/SegoeUI.eot');
+src: url('.../fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+url('.../fonts/SegoeUI.woff') format('woff'),
+url('.../fonts/SegoeUI.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.box-name {
+  font-family: 'Segoe UI Light';
+}
